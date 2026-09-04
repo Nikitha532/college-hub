@@ -1,36 +1,41 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎓 College Hub
 
-## Getting Started
+A modern, full-stack college discovery and comparison web application built with **Next.js 15**, **Prisma ORM**, **Neon PostgreSQL**, and **Tailwind CSS**.
 
-First, run the development server:
+🔗 **Live Demo:** [https://college-hub-gilt.vercel.app](https://college-hub-gilt.vercel.app)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ✨ Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Dynamic College Directory:** Search across institutions and filter by ratings or tuition fees in real time.
+- **Detailed College Profiles:** Comprehensive institution views displaying key placement statistics, annual tuition, accreditation ratings, and available academic programs.
+- **Interactive Side-by-Side Comparison:** Compare up to 3 institutions simultaneously via a dedicated comparison tray and responsive modal view.
+- **Modern Responsive Design:** Built using Tailwind CSS with mobile-first layouts, clean typography, and accessible UI elements.
+- **Serverless PostgreSQL:** Backed by Neon DB with Prisma ORM for type-safe database queries and migrations.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🛠️ Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+- **Framework:** Next.js 15 (App Router, Server & Client Components)
+- **Database:** PostgreSQL (Neon Serverless)
+- **ORM:** Prisma ORM
+- **Styling:** Tailwind CSS
+- **Deployment:** Vercel CI/CD
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🚀 Getting Started
 
-## Deploy on Vercel
+### Prerequisites
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Node.js 18+ installed
+- A Neon PostgreSQL database instance (or local PostgreSQL)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/Nikitha532/college-hub.git](https://github.com/Nikitha532/college-hub.git)
+   cd college-hub
